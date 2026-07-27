@@ -1,5 +1,5 @@
 import pytest
-from src.generator import generate_character
+from src.generator import generate_character_from_db as generate_character
 
 def test_cyberpunk_generation():
     result = generate_character("cyberpunk")
